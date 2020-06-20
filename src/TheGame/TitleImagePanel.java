@@ -17,7 +17,8 @@ public class TitleImagePanel extends JPanel {
 
         titleImageExists = false; //the image doesn't exist until it does exist
         try {
-            titleImage = ImageIO.read(new File("Images (pls no delet)/TitleImage.png"));
+            titleImage = ImageIO.read(TitleImagePanel.class.getResource("/Images (pls no delet)/TitleImage.png"));
+            //Thank you, JB Nizet! (https://stackoverflow.com/a/8362018)
             this.setPreferredSize(new Dimension(titleImage.getWidth(), titleImage.getHeight()));
             titleImageExists = true;
             /*

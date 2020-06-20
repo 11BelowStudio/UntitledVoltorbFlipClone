@@ -7,7 +7,7 @@ import javax.swing.JPanel;
 
 class TitlePanel extends JPanel {
 
-    private Game game; //reference to the parent Game object that called this
+    private final Game game; //reference to the parent Game object that called this
 
     TitlePanel(Game g) { //package-private
 
@@ -48,8 +48,7 @@ class TitlePanel extends JPanel {
         JOptionPane.showMessageDialog(this,
                 "CREDITS\n\n"
                         +"Programming, Art, etc:\n"
-                        +"* idk if I'm allowed to say my name or not on these assignments so uhh...\n"
-                        +"  my registration number is 1804170 and I guess that's all I'm allowed to say about myself here\n\n"
+                        +"* 11BelowStudio\n\n"
                         +"Original game concept:\n"
                         +"* This game is essentially a recreation of the 'Voltorb Flip' minigame from the non-Japanese versions of\n"
                         +"  Pokemon HeartGold and Pokemon SoulSilver (developed by Game Freak, published by Nintendo, 2010).\n"
