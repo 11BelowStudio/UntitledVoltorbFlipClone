@@ -64,7 +64,7 @@ will allow you to take a note of what you think each card holds.
     so you should bear that in mind if you're going for a high score.
 
 ### Super Helpful Informative Tips
-* If a row/column has 0 bombs in it, there is 0 risk of you revealing all the cards in that column
+* If a row/column has 0 bombs in it, it is safe to reveal all the cards in that row/column​
 * If a row/column has 5 bombs in it (somehow), don't bother touching it.
 * If the sum of the points and the bombs in a row/column is equal to 5,
 all the point cards in that row/column will be 1s.
@@ -81,7 +81,7 @@ all the point cards in that row/column will be 1s.
 
 * Programming, Art, etc:
     * 11BelowStudio
-    * Code used to get the image into the .JAR file provided by Help with getting the images in the JAR file provided by JB Nizet on StackOverflow (https://stackoverflow.com/a/8362018)
+    * Code used to get the image into the .JAR file provided by JB Nizet on StackOverflow (https://stackoverflow.com/a/8362018)
 * Original game concept:
     * This game is essentially a recreation of the 'Voltorb Flip' minigame
     from the non-Japanese versions of Pokemon HeartGold and Pokemon SoulSilver
