@@ -1,4 +1,5 @@
-#UntitledVoltorbFlipClone
+# Untitled Voltorb Flip Clone
+by 11BelowStudio (https://github.com/11BelowStudio, https://11belowstudio.itch.io/)
 
 yes, it's a clone of Voltorb Flip from pokemon heartgold/soulsilver. cba to hide the fact.
 
@@ -76,7 +77,7 @@ all the point cards in that row/column will be 1s.
 * Bank your points if you don't think you'll survive the next level.
     * After all, you'll lose eventually, and you don't want all your hard work to go to waste (probably)
 
-##Credits
+## Credits
 
 * Programming, Art, etc:
     * 11BelowStudio
@@ -91,3 +92,27 @@ all the point cards in that row/column will be 1s.
         adding an extra element of risk vs reward with the scores, etc),
         however, for all intents and purposes,
         this game is pretty much a copy of that game.
+
+
+## License
+MIT License
+
+Copyright (c) 2020 R. Lowe
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
