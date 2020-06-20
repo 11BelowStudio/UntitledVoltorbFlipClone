@@ -7,7 +7,7 @@ import java.awt.*;
 public abstract class FlipCard extends FlipObject {
 
     protected int value;
-    private NotePanel notes;
+    private final NotePanel notes;
     //value held by card and the NotePanel initially present on this card
 
     FlipCard(FlipBoard fb, int value){

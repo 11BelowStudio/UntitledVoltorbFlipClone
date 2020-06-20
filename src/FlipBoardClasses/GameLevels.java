@@ -10,7 +10,7 @@ class GameLevels {
     okay so basically this will handle the configurations of levels,
     and will return the parameters to be used to construct a level for the game
      */
-    private ArrayList<ArrayList<ArrayList<Integer>>> levels;
+    private final ArrayList<ArrayList<ArrayList<Integer>>> levels;
     //3d arraylist containing level info
 
     //package-private

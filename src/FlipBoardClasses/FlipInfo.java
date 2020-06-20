@@ -8,8 +8,8 @@ import static javax.swing.BorderFactory.createLineBorder;
 public class FlipInfo extends FlipObject {
 
     //tracks the 'total' score and count of 'zeroes' for the row/column this FlipInfo object is on
-    private int total;
-    private int zeroes;
+    private final int total;
+    private final int zeroes;
 
     //package-private
     FlipInfo(FlipBoard fb, int total, int zeroes){

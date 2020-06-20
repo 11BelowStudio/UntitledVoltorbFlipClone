@@ -1,6 +1,6 @@
 package TheGame;
 
-public class ScoreRecord implements Comparable {
+public class ScoreRecord implements Comparable<ScoreRecord> {
 
     //basically contains a String object to hold a player's name, and an Integer object to hold their score
     private String name;
@@ -47,13 +47,9 @@ public class ScoreRecord implements Comparable {
 
 
     @Override
-    public int compareTo(Object o) {
-        if (o instanceof ScoreRecord){
-            return this.getScore().compareTo(((ScoreRecord) o).getScore());
-            //compares the 'theScore' value of this to the 'theScore' value of the other ScoreRecord
-        } else{
-            return 0; //can't really compare the other object if it isn't a scoreRecord, y'know?
-        }
+    public int compareTo(ScoreRecord o) {
+        return this.getScore().compareTo(o.getScore());
+        //compares the 'theScore' value of this to the 'theScore' value of the other ScoreRecord
     }
 
 }

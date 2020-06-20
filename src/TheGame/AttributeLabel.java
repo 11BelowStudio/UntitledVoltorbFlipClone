@@ -10,7 +10,7 @@ public class AttributeLabel extends JLabel {
     whenever the value is updated by any amount, y'know?
     */
 
-    private String attributeName;
+    private final String attributeName;
     //holds the name of the attribute that this AttributeLabel is keeping track of
 
     private int value;

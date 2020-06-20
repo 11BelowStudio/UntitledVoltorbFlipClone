@@ -5,9 +5,9 @@ import java.awt.*;
 
 class Note extends JPanel {
 
-    private FlipCard card; //Record of what FlipCard object this Note is on
-    private JLabel noteLabel; //a JLabel
-    private String noteText; //the text that may be shown/hidden on noteLabel
+    private final FlipCard card; //Record of what FlipCard object this Note is on
+    private final JLabel noteLabel; //a JLabel
+    private final String noteText; //the text that may be shown/hidden on noteLabel
     private boolean flagged; //tracks whether or not the noteText should be shown
 
     Note(FlipCard card, String contents, boolean darker){

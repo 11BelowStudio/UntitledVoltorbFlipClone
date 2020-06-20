@@ -25,7 +25,7 @@ public class Game extends JFrame {
     //technically it's a FlipBoardClasses.FlipBoardPanel object, but that extends JPanel, so uhh yeah
 
 
-    private HighScoreHandler highScores;
+    private final HighScoreHandler highScores;
     //used to process reading/saving high scores
 
 
@@ -42,7 +42,7 @@ public class Game extends JFrame {
     //ditto but for the current level of the game
 
 
-    private FlipBoard fb;
+    private final FlipBoard fb;
     //a FlipBoard object (boundary for FlipBoardClasses package)
 
     private boolean firstFlip;
@@ -58,7 +58,7 @@ public class Game extends JFrame {
 
         //basically sets stuff up
 
-        this.setTitle("Untitled Game Unrelated To Minesweeper #1804170");
+        this.setTitle("Untitled Voltorb Flip Clone");
         //casually shoehorning in my registration number into the game's title
 
         this.setLayout(new BorderLayout());
@@ -232,13 +232,9 @@ public class Game extends JFrame {
         nextLevel(); //level increased by 1
 
         //next level is initialised appropriately depending on whether or not they pressed the 'bank them' button
-        if (bankPoints == 0){
-            initGame(true);
-            //if they did choose to bank them
-        } else{
-            initGame(false);
-            //if they chose to not bank them, or simply closed the optionDialog
-        }
+        initGame(bankPoints == 0);
+            //if they did choose to bank them, they're banked.
+            //if they chose to not bank them, or simply closed the optionDialog, they're not banked.
     }
 
 

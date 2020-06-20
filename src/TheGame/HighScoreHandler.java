@@ -10,12 +10,12 @@ class HighScoreHandler {
     //pls note that everything in this is package-private or just private
 
 
-    private ArrayList<ScoreRecord> highScores;
+    private final ArrayList<ScoreRecord> highScores;
     //arrayList of scoreRecord objects, exists throughout runtime, even if the high score file itself goes missing
 
-    private String fileLocation; //location of the high score file
+    private final String fileLocation; //location of the high score file
 
-    private File scoreFile; //reference to the high score file
+    private final File scoreFile; //reference to the high score file
 
     private boolean fileExists; //tracks whether or not the high score file exists
 

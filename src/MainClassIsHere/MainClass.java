@@ -6,7 +6,5 @@ import TheGame.Game;
 
 public class MainClass {
     //literally just the main method, which literally just creates a Game object
-    public static void main(String[] args) {
-        new Game();
-    }
+    public static void main(String[] args) { new Game(); }
 }

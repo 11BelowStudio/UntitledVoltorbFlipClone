@@ -15,7 +15,7 @@ public class BombPanel extends JPanel{
     The resized BombShape object is then drawn on this panel.
      */
 
-    private BombShape bomb; //the BombShape which is drawn
+    private final BombShape bomb; //the BombShape which is drawn
 
 
     //constructor and updateSize are package-private btw

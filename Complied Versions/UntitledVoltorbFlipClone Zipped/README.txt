@@ -43,7 +43,7 @@ but right-clicking would be nice too)
 * Every row/column has a panel with information about what is in the row.
     * It shows the sum of the values of the point cards in that row/column,
     as well as the count of bombs in that row/column.
-    
+
 * Right-clicking the squares for the checkerboard pattern on each card
 will allow you to take a note of what you think each card holds.
     * You can have multiple notes on a single card
@@ -53,7 +53,7 @@ will allow you to take a note of what you think each card holds.
         * Bottom-left: 2
         * Bottom-right: 3.
     * Right-clicking that square again will hide that note again.
-    
+
 ### How to get a high score:
 * Revealing a card will multiply your current score by the amount on that card
     * However, a bomb card counts as a 'x0' multiplier for your score, and will end the game.
@@ -85,7 +85,7 @@ all the point cards in that row/column will be 1s.
 * Original game concept:
     * This game is essentially a recreation of the 'Voltorb Flip' minigame
     from the non-Japanese versions of Pokemon HeartGold and Pokemon SoulSilver
-    (developed by Game Freak, published by Nintendo, 2010). 
+    (developed by Game Freak, published by Nintendo, 2010).
     Further information about it can be read about it here: https://bulbapedia.bulbagarden.net/wiki/Voltorb_Flip
         * I have made a few minor changes to it (different visuals,
         different controls, it's playable on PC,

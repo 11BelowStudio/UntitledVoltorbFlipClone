@@ -13,13 +13,13 @@ public class FlipBoard {
     private int amountToFind;
     //records the number of 2 and 3 cards that must be found with the current configuration of 'grid'
 
-    private Game game;
+    private final Game game;
     //Reference to the 'Game' object that called this
 
-    private MouseClickListener mouseListener;
+    private final MouseClickListener mouseListener;
     //A 'MouseClickListener' object, which implements 'MouseListener'
 
-    private GameLevels theLevels;
+    private final GameLevels theLevels;
     //A 'GameLevels' object, which is used to store/obtain information about level configurations
 
 

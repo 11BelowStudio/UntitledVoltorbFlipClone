@@ -5,7 +5,7 @@ import java.awt.*;
 
 public class ZeroCard extends FlipCard {
 
-    private BombPanel theBomb; //a BombPanel object
+    private final BombPanel theBomb; //a BombPanel object
 
     //package private
     ZeroCard(FlipBoard fb){
